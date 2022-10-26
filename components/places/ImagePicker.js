@@ -25,8 +25,8 @@ function ImagePicker({ onTakeImage }) {
         "Insufficient permissions!",
         "You need to grant camera permissions to use this app."
       );
-      const permissionResponse = await requestPermission();
-      return permissionResponse.granted;
+      // const permissionResponse = await requestPermission();
+      // return permissionResponse.granted;
       return false;
     }
     return true;
